@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+	margin: auto;
+	width: 600px;
+}
+
+.game-board {
+    margin-top: 10%;
+	width: 300px;
+	height: 600px;
+    background-color: #22222278;
+	border: 1px solid white;
+	float: left;
+}
+
+.game-info {
+    margin-top: 10%;
+
+	width: 250px;
+	height: 600px;
+	border: 1px solid white;
+	float: right;
+}
+
+.score, .level {
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.start-game, .pause-game, .reset-game {
+	display: block;
+	margin: 20px auto;
+	font-size: 18px;
+	padding: 10px 20px;
+}
